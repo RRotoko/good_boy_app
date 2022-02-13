@@ -1,0 +1,1 @@
+export const USER_AGREES = 'USER_AGREES';

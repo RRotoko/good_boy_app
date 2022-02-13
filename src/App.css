@@ -1,0 +1,39 @@
+:root {
+  --primary: linear-gradient(180deg, #CD8A64 0%, rgb(172, 108, 26) 100%);
+  --primary-text: rgb(172, 108, 26);
+  --background: white;
+  --on_primary: white;
+  --on_background: black;
+  --subtle: rgb(199, 197, 197, 0.7);
+  --border: 2px solid rgb(185, 183, 183, 0.5);
+  --border_primary: 2px solid #CD8A64;
+  --radius: 10px;
+  --shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.App {
+  position: relative;
+  min-width: 1300px;
+  max-width: 1440px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.app-center {
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+button {
+  outline: none;
+}
